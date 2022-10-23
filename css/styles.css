@@ -1,0 +1,150 @@
+:root
+{
+    --main-title-color:  #ffffff;
+}
+
+body {
+  font-family: "Open Sans", Verdana, sans-serif;
+}
+
+.header {
+  background-color: grey;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--main-title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ff6c00;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  border-color: #ff6c00;
+}
+
+.hero {
+  background-color: grey;
+}
+
+.hero-link 
+{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15/11);
+    letter-spacing: 0.2em;
+}
+
+.hero-link:hover, .hero-link:focus
+{
+    color: #FF6C00;
+}
+
+.hero-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: calc(85 / 72);
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.hero-description 
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.about-title {font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15/11);
+    text-transform: uppercase;
+
+    color: #303030;
+}
+
+.about-sub-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: calc(49/42);
+    letter-spacing: 0.05em;
+
+    color: #303030;
+}
+
+.about-description {font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30/18);
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {font-weight: 400;
+    font-size: 14px;
+    line-height: calc(26/14);
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-btn {font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16/12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+    border-color: #ff6c00;
+}
